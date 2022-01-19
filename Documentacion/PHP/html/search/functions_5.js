@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['getavatarurl_0',['getAvatarURL',['../class_user.html#a93b46e158713bb3c22df64db48f519c5',1,'User']]],
+  ['getcomment_1',['getComment',['../class_comment.html#adb57c3d1b74c19589ba1d641ea1a390e',1,'Comment']]],
+  ['getcommentdata_2',['getCommentData',['../class_comment.html#a45f08c243f0aaee861e20d1d73fabb4a',1,'Comment']]],
+  ['getcommentsfromprivateidmovie_3',['getCommentsFromPrivateIdMovie',['../class_comment_model.html#aa580472e5560fa89e4279bbb64cb25e6',1,'CommentModel']]],
+  ['getdirectorname_4',['getDirectorName',['../class_movie.html#a08d4099eaf542a368546322a70a904ce',1,'Movie']]],
+  ['getemail_5',['getEmail',['../class_user.html#a02a01849f28e2535e888ae4ec87b20f2',1,'User']]],
+  ['getidprivatefromidpublic_6',['getIdPrivateFromIdPublic',['../class_comment_model.html#ac15f4d46967ccb5e95854ae8c9a50352',1,'CommentModel\getIdPrivateFromIdPublic()'],['../class_movie_model.html#ac15f4d46967ccb5e95854ae8c9a50352',1,'MovieModel\getIdPrivateFromIdPublic()']]],
+  ['getisfav_7',['getisFav',['../class_movie.html#a3796488d4e56fb3999cb0ed52e27bbee',1,'Movie']]],
+  ['getlistmovies_8',['getListMovies',['../class_movie_model.html#a46bced59939eea68a536d03889efba2c',1,'MovieModel']]],
+  ['getlistusers_9',['getListUsers',['../class_user_model.html#a3d6b2babd3445fc1db2ae25602b577b1',1,'UserModel']]],
+  ['getmoviefromidpublic_10',['getMovieFromIdPublic',['../class_movie_model.html#afbfdb140707380aeb1193880f6811ab5',1,'MovieModel']]],
+  ['getmovieid_11',['getMovieId',['../class_comment.html#aaa8e3e52a948f6b724a55450ecb44d3a',1,'Comment']]],
+  ['getname_12',['getName',['../class_movie.html#a3d0963e68bb313b163a73f2803c64600',1,'Movie']]],
+  ['getnick_13',['getNick',['../class_comment.html#a99626b4cc482b53dd970e28101c2c215',1,'Comment\getNick()'],['../class_user.html#a99626b4cc482b53dd970e28101c2c215',1,'User\getNick()']]],
+  ['getnumfilmfav_14',['getNumFilmFav',['../class_user.html#af04c6f8041423bb8a98bc44e474f0403',1,'User']]],
+  ['getphotouser_15',['getPhotoUser',['../class_comment.html#a45d9970bd2fff9dff4ee36bf506534b5',1,'Comment']]],
+  ['getposterurl_16',['getPosterUrl',['../class_movie.html#a5d1fa8707cbdefb86de0c137fed290b3',1,'Movie']]],
+  ['getprivateid_17',['getPrivateId',['../class_movie.html#ac0ea8543f0f9c2aea4d68255faf01bfe',1,'Movie\getPrivateId()'],['../class_user.html#ac0ea8543f0f9c2aea4d68255faf01bfe',1,'User\getPrivateId()']]],
+  ['getpublicid_18',['getPublicId',['../class_movie.html#ac02f76ee2955927eb4e4e3324048cdc4',1,'Movie']]],
+  ['getrating_19',['getRating',['../class_movie.html#a209cc2a79146f673389564ea1315c2a2',1,'Movie']]],
+  ['getreleaseyear_20',['getReleaseYear',['../class_movie.html#ad7300ba3836ceafccd23ef38bc812140',1,'Movie']]],
+  ['getsynopsis_21',['getSynopsis',['../class_movie.html#a689e3214627e1e86671c39f506bb5ff5',1,'Movie']]],
+  ['getuserdatafromnick_22',['getUserDataFromNick',['../class_user_model.html#a04762e7c731a3d4df57bb728e3221d19',1,'UserModel']]],
+  ['getuserid_23',['getUserId',['../class_comment.html#a05f6aa1ffae6295260d9f1cca016bf33',1,'Comment']]],
+  ['getuserinfo_24',['getUserInfo',['../class_user_controller.html#a0fbad55785520cc290743413f682400f',1,'UserController']]]
+];

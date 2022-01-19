@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['searchdatamovie_0',['searchDataMovie',['../class_movie_model.html#af0a3c5218f30b958ba119d9449b19f0e',1,'MovieModel']]],
+  ['searchmovie_1',['searchMovie',['../class_movie_controller.html#aec91091ef5278bc74ae8ea7b07a26721',1,'MovieController']]],
+  ['setavatarurl_2',['setAvatarURL',['../class_user.html#a690a7251b16c65e88dab5a9b92b8a845',1,'User']]],
+  ['setcomment_3',['setComment',['../class_comment.html#a169d67ad53abdd4e6d1cd931fe15e839',1,'Comment']]],
+  ['setcommentdata_4',['setCommentData',['../class_comment.html#a13ae20136cdca2cb73ec2c1a34924a7e',1,'Comment']]],
+  ['setdirectorname_5',['setDirectorName',['../class_movie.html#a16acd625938384c70d53d0d582913573',1,'Movie']]],
+  ['setemail_6',['setEmail',['../class_user.html#a5ef76eef42d2624386442eeb636d338c',1,'User']]],
+  ['setisfav_7',['setIsFav',['../class_movie.html#a6b72aadf917e7da123795af75b069265',1,'Movie']]],
+  ['setmovieid_8',['setMovieId',['../class_comment.html#a63e8a46e8f690a0aff35429ff2125031',1,'Comment']]],
+  ['setname_9',['setName',['../class_movie.html#a2fe666694997d047711d7653eca2f132',1,'Movie']]],
+  ['setnick_10',['setNick',['../class_comment.html#a74420f79e4eb47f1288688e79b790810',1,'Comment\setNick()'],['../class_user.html#a74420f79e4eb47f1288688e79b790810',1,'User\setNick($nick)']]],
+  ['setnumfilmfav_11',['setNumFilmFav',['../class_user.html#afccd5cadcfeb1394e2a3b47f468ebe5d',1,'User']]],
+  ['setphotouser_12',['setPhotoUser',['../class_comment.html#a64fac60e00e127db14879292789a5dc3',1,'Comment']]],
+  ['setposterurl_13',['setPosterUrl',['../class_movie.html#aa1bc501a7b9a37e2a8891a55ed503eee',1,'Movie']]],
+  ['setprivateid_14',['setPrivateId',['../class_movie.html#a58d0ac472963aceb32faa71c9c37b37c',1,'Movie\setPrivateId()'],['../class_user.html#a58d0ac472963aceb32faa71c9c37b37c',1,'User\setPrivateId()']]],
+  ['setpublicid_15',['setPublicId',['../class_movie.html#a21433962f79ef69e2a6009ff8d0714e4',1,'Movie']]],
+  ['setrating_16',['setRating',['../class_movie.html#a0bda8a5142a1c40476109d41ffac7fa6',1,'Movie']]],
+  ['setreleaseyear_17',['setReleaseYear',['../class_movie.html#a37e490b27a4df4d6cbdf3423d6239271',1,'Movie']]],
+  ['setsynopsis_18',['setSynopsis',['../class_movie.html#a7b66efd3a00e5f586d2804e2a73fa1b9',1,'Movie']]],
+  ['setuserid_19',['setUserId',['../class_comment.html#a3c54e1558bf4a6997f6f639a7fdf2358',1,'Comment']]]
+];

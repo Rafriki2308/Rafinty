@@ -1,0 +1,50 @@
+    <div id="inserUserContainer">
+        <form id="sendUserForm" name="sendUserForm" action="./InsertUser.php?option=2" method="post">
+            <div id="insertArea">
+                <div id="photoUserArea">
+                    <div id="photoUser">
+                    <img src="./Style/img/NoUser.png" alt="Foto Usuario" id="photo">
+                    </div>
+                <br>
+                <button type="button" id="checkPhoto" onclick="showPhoto(photoI.value);">Validar Foto</button>
+                </div>
+
+                <div id="inputUserArea">
+                    <div id="labelUser">
+                        <label for="emailLUser">Email</label>
+                        <br><br>
+                        <label for="nickLUser">Nick</label>
+                        <br><br>
+                        <label for="photoLURLUser">Foto url</label>
+                    </div>
+                    <div id="inputUser">
+                        <div id="emailID">
+                            <input type="text" id="emailI" name="emailIUser" onchange="genNick(emailI.value)"
+                            required placeholder="user@mail.com">
+                        </div>
+                        <div id="nickID">
+                            <input type="text" id="nickI" name="nickIUser" required placeholder="NickUser">
+                        </div>
+                        <div id="photoID">
+                            <input type="text" id="photoI" name="photoIURLUser" required placeholder="https://image.jpg">
+                        </div>
+                    </div>
+                    <br><br>
+                    <button type="button" id="sendUser" onclick="testInsertUser(nickI.value, emailI.value, photoI.value,sendUserForm.name )">
+                        Crear Usuario</button>
+                </div>
+            </div>
+        </form>
+        <!--Este DIV contiene el popUp que esta oculto desde el CSS y cuando se aplica el evento del 
+        boton el javaScript lo hace aparecer cuando se inserta un dato incorrecto en el formulario-->
+        <div class="popup-wrapper">
+            <div class="popup">
+                <div class="popup-close">x</div>
+                <div class="popup-content">
+                    <h2>UPS Parece que has introducido un dato erroneo</h2>
+                    <p>Revisalos y vuelve a intentarlo</p>
+                    <a href='./InsertUser.php?option=1'>Vale</a>
+                </div>
+            </div>
+        </div>
+    </div>

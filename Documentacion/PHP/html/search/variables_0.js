@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['_24commentcontroller_0',['$commentController',['../_info_film_8php.html#a6b29158ea7ebea2fa799e0e871b11e17',1,'$commentController():&#160;InfoFilm.php'],['../_insert_comment_8php.html#a6b29158ea7ebea2fa799e0e871b11e17',1,'$commentController():&#160;InsertComment.php']]],
+  ['_24commentstring_1',['$commentString',['../_insert_comment_8php.html#a920dc4e76e756213dc664097990ae31e',1,'InsertComment.php']]],
+  ['_24connection_2',['$connection',['../class_connection.html#a0d9c79b9b86b3f5891c6d3892f12c6a0',1,'Connection']]],
+  ['_24hostname_3',['$hostname',['../class_connection.html#a8bf9ffb42ed554b203b55377d1fc9aa4',1,'Connection']]],
+  ['_24isdeleted_4',['$isDeleted',['../_delete_film_8php.html#ae6f16c68094ea77eb31416af52f18799',1,'DeleteFilm.php']]],
+  ['_24movie_5',['$movie',['../_info_film_8php.html#a7c09743de87b5f22f8cbdfb76a852568',1,'InfoFilm.php']]],
+  ['_24moviecontroller_6',['$movieController',['../_info_user_8php.html#a4c2953779267d31f7f641443f71b4d84',1,'$movieController():&#160;InfoUser.php'],['../_insert_film_8php.html#a4c2953779267d31f7f641443f71b4d84',1,'$movieController():&#160;InsertFilm.php'],['../_insert_rating_8php.html#a4c2953779267d31f7f641443f71b4d84',1,'$movieController():&#160;InsertRating.php'],['../_delete_film_8php.html#a4c2953779267d31f7f641443f71b4d84',1,'$movieController():&#160;DeleteFilm.php'],['../_index_8php.html#a4c2953779267d31f7f641443f71b4d84',1,'$movieController():&#160;Index.php'],['../_info_film_8php.html#a4c2953779267d31f7f641443f71b4d84',1,'$movieController():&#160;InfoFilm.php']]],
+  ['_24movies_7',['$movies',['../_info_user_8php.html#a4448f94c7c1943614bb8db29ee54ec8a',1,'InfoUser.php']]],
+  ['_24nick_8',['$nick',['../_info_user_8php.html#a65925f217c1d8e6ac90d5cdf7c5bdc1e',1,'InfoUser.php']]],
+  ['_24option_9',['$option',['../class_connection.html#a7009542551e0ad5c4e0a84b09678ba11',1,'Connection\$option()'],['../_exception_8php.html#a7009542551e0ad5c4e0a84b09678ba11',1,'$option():&#160;Exception.php'],['../_index_8php.html#a7009542551e0ad5c4e0a84b09678ba11',1,'$option():&#160;Index.php'],['../_info_film_8php.html#a7009542551e0ad5c4e0a84b09678ba11',1,'$option():&#160;InfoFilm.php'],['../_insert_film_8php.html#a7009542551e0ad5c4e0a84b09678ba11',1,'$option():&#160;InsertFilm.php'],['../_insert_user_8php.html#a7009542551e0ad5c4e0a84b09678ba11',1,'$option():&#160;InsertUser.php']]],
+  ['_24password_10',['$password',['../class_connection.html#a607686ef9f99ea7c42f4f3dd3dbb2b0d',1,'Connection']]],
+  ['_24print_11',['$print',['../_index_8php.html#a093c659246a4a2f03961e4704425a4e4',1,'$print():&#160;Index.php'],['../_info_user_8php.html#a093c659246a4a2f03961e4704425a4e4',1,'$print():&#160;InfoUser.php']]],
+  ['_24printinfo_12',['$printInfo',['../_info_film_8php.html#a5408c401d74f7a7f0fe0e2ba5ab6fd3b',1,'InfoFilm.php']]],
+  ['_24publicid_13',['$publicId',['../_delete_film_8php.html#a7050d1615101d7ef1ebece2be56cfb8b',1,'$publicId():&#160;DeleteFilm.php'],['../_info_film_8php.html#a7050d1615101d7ef1ebece2be56cfb8b',1,'$publicId():&#160;InfoFilm.php'],['../_insert_comment_8php.html#a7050d1615101d7ef1ebece2be56cfb8b',1,'$publicId():&#160;InsertComment.php'],['../_insert_rating_8php.html#a7050d1615101d7ef1ebece2be56cfb8b',1,'$publicId():&#160;InsertRating.php']]],
+  ['_24rating_14',['$rating',['../_insert_rating_8php.html#a44118acf7e954a3bc096a4af6b059c23',1,'InsertRating.php']]],
+  ['_24schema_15',['$schema',['../class_connection.html#a83022b1d70799d2bde3d64dca9cb40ee',1,'Connection']]],
+  ['_24user_16',['$user',['../class_connection.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'Connection\$user()'],['../_info_user_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'$user():&#160;InfoUser.php']]],
+  ['_24usercontroller_17',['$userController',['../_index_8php.html#ab98c1855a5ef469dd8a4c83ed3b45a88',1,'$userController():&#160;Index.php'],['../_info_user_8php.html#ab98c1855a5ef469dd8a4c83ed3b45a88',1,'$userController():&#160;InfoUser.php'],['../_insert_user_8php.html#ab98c1855a5ef469dd8a4c83ed3b45a88',1,'$userController():&#160;InsertUser.php']]]
+];

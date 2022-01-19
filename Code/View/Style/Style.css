@@ -1,0 +1,969 @@
+/*Esta zona define el estilo de la pagina completa en general*/
+
+body {
+    width: 95%;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url(../Style/img/BackGroundII.png);
+    background-size:cover;
+    background-attachment: fixed;
+    min-width: 1700px;
+    min-height: 900px;
+    /*Esta opcion fija la imagen al fondo cuando se hace scroll, la imagen no 
+    se mueve, se mueve el texto*/
+}
+
+button {
+    border: none;
+    color: #e9f7f8;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #22a1f6;
+    color: rgb(250, 250, 250);
+    border-radius: 1px;
+    font-size: 14px;
+    box-shadow: 0 8px 10px 0 rgba(6, 120, 226, 0.918), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    background-color: rgb(55, 236, 197);
+    transition: all 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+text{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+
+}
+
+label{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.principal{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/***************************************************************************/
+/*Esta zona define la cabecera de la pagina web*/
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #22a1f6;
+    font-weight: bolder;
+    display: block;
+    padding: 10px;
+    top: 0;
+}
+
+#logo{
+    width: 10% ;
+    height: auto ;
+    float: left;
+    margin-top: 10px;
+    margin-right: 350px;
+    cursor: pointer;
+}
+
+#buttonsUser{
+    float: right;
+}
+
+/*****************************************************/
+/*Zona que da estilo a la barra de busqueda*/
+
+* {
+    
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.field {
+  display:flex;
+  position:relative;
+  margin-left: 200px;
+  margin-right: auto;
+  margin:15px;
+  width:30%;
+  flex-direction:row;
+  box-shadow: 0 8px 10px 0 rgba(6, 120, 226, 0.918), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid #22a1f6;
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:#22a1f6;
+  color:#e9f7f8;
+  border:none;
+}
+
+.field>button:hover{
+    background-color: rgb(55, 236, 197);
+}
+
+
+
+/*******************************************************/
+/*Zona que da estilo a la zona del menu*/
+
+#navi {
+    background-color: #44708d;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+
+#navi li {
+    display: inline-block;
+    /*Convertimos el vínculo en un bloque.*/
+    text-align: center;
+    width: auto;
+    padding: 10px 10px;
+}
+
+#navi li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    /*Este atributo le quita el subrayado por ser un enlace*/
+    text-align: center;
+    font-size: 20px;
+    color: #e9f7f8;
+}
+
+/*Este estilo le da un hover al texto del menu*/
+
+#navi li a:hover {
+    color: rgb(55, 236, 197);
+    
+}
+
+/***********************************************************/
+
+/*Este es el estilo para la zona de la lista de usuarios*/
+.user{
+    
+    background-color: #868686b9;
+    height: 100px;
+    width:50%;
+    border: solid #22a1f6 5px;
+    display: block;
+    padding: 8px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 15px;
+    overflow: hidden;
+
+}
+
+.user img{
+    width: 80px;
+    height: 80px;
+    align-content: unset;
+    object-fit: contain;
+
+}
+
+.user p{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+#photoComment{
+
+    float: left;
+}
+
+#usersContainer{
+    padding-top: 15px;
+    margin-bottom: 10%;
+}
+
+/***********************************************************/
+/*Este es el estilo de la zona del indice de las peliculas*/
+
+#moviesContainer{
+    padding-left: 350px;
+    padding-top: 200px;
+    margin-bottom:5%;
+}
+
+#moviesSearchContainer{
+    min-width: 1000px;
+    padding-left: 300px;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+
+/*Efecto de las peliculas*/
+
+.card {
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    background-color: rgb(177, 177, 177);
+    height: 320px;
+    width: 280px;
+    border:solid #22a1f6 5px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.card .imgBx,
+.card .details {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.card:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.card .imgBx img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    object-fit: contain;
+}
+.card .details {
+    background: rgb(177, 177, 177);
+    top: 0;
+    left: 100%;
+    padding: 15px 15px;
+}
+.card:hover .details {
+    top: 0;
+    left: 0%;
+    overflow:auto;
+}
+.card .details h2 {
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid black;
+
+}
+.card .details p {
+    margin: 20px 0 0;
+    color: black;
+}
+
+
+/*************************************************************/
+/*Este es el estilo de la zona de informacion de la pelicula*/
+
+#infoFilmContainer{
+    margin-bottom: 5%;
+}
+#infoP {
+    height: 600x;
+    width: 700px;
+    border: solid #22a1f6 5px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+}
+
+#infoP text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bolder;
+}
+
+#infoP img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infoP input {
+    width: 500px;
+    height: 20px;
+    padding: 8px 50px;
+    border: 3px solid rgb(177, 177, 177);
+    font-family: Arial;
+    font-size: 12pt;
+    background-color: #e9f7f8;
+} 
+
+/*Esta parte define la zona del bloque de la foto de la pelicula con la nota*/
+
+#photoArea {
+    background-color: #e9f7f8;
+    height: 400px;
+    width: 250px;
+    float: left;
+    padding: 15px;
+    border: solid #22a1f6 5px;
+}
+
+#photoFilm {
+    height: 215px;
+    width: 215px;
+    margin: 12px;
+    margin-left: 13px; 
+    object-fit: contain;   
+}
+
+/* Estilo del boton de valoracion de la pelicula*/
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+  }
+  
+  .number-input,
+  .number-input * {
+    box-sizing: border-box;
+  }
+  
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 1px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 1px;
+    font-size: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/*Estilo del corazon de favoritos*/
+#isFavI{
+    
+    background-size:contain;
+    cursor: pointer;
+    width: 40px;
+    height:30px;
+    color: transparent;
+    background-color:#e9f7f8;
+    border: none;
+    outline:none;
+    float: right;  
+}
+
+/****************************************************************************/
+/*Esta parte da estilo a la zona principal de la informacion de la pelicula*/
+#principalArea{
+    background-color: rgb(177, 177, 177);
+    height: 300px;
+    width: auto;
+    margin-left: 350px;
+    border: solid #22a1f6 5px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+#principalArea text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12;
+}
+
+#principalArea label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12;
+}
+
+#pricipalArea input{
+    height: auto;
+    width: auto;
+    border-style: double;
+
+    
+}
+
+#sinopsisInfo{
+    height: 140px;
+    width: auto;
+    padding: 10px;
+    background-color: #e9f7f8;
+    
+}
+
+/*Esta parte da estilo a la zona de los comentrarios*/
+
+#commentArea{
+    overflow: hidden;
+}
+
+#commentArea{
+    background-color: #868686b9;
+    height: 100px;
+    width:auto;
+    border: solid #22a1f6 5px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#infoFilmComment{
+    text-align: center;
+}
+
+#photoUser{
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+#date{
+    float:right;
+}
+#dateInfo{
+    float: right;
+}
+
+/*Esta zona da estilo al bloque que recibe el comentario y lo envia*/
+
+#addComment{
+    margin-right: 10px;
+    background-color: #e9f7f8;
+    height: 110px;
+    width: 800px;
+    resize: none;
+    border: solid #22a1f6 5px;
+}
+
+
+
+/*************************************************************/
+/*Esta zona da estilo al bloque de informacion del usuario*/
+
+
+#UserFavMovieContainer{
+    min-height: 325px;
+    margin-bottom: 18%;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+#infoUser{
+    border:solid #22a1f6 5px;
+    margin-right: 50px;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(177, 177, 177);
+    float: left;
+    
+}
+#infoUser img{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 75px;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+#infoUser input {
+    margin-top: 20px;
+    background-color: #e9f7f8;
+    border:solid #22a1f6 2px;
+    margin-left: 8px;
+    width: 180px;
+    height: 25px;
+    font-size: 16px;
+    text-align: center;
+    overflow:scroll;
+
+}
+
+/*Estilo de las peliculas del usuario*/
+
+#movieIndex{
+    background-color: rgb(177, 177, 177);
+    height: 320px;
+    width: 280px;
+    border:solid #22a1f6 5px;
+    display: inline-block;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#imageIndex {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    object-fit: contain;
+    /*Esto hace que la image se proporcione en funcion a la medida que hemos puesto para ella*/
+}
+
+#movieIndex text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow: hidden;
+}
+
+
+/********************************************************/
+/*Esta zona genera el estilo para la pagina de insertar usuario*/
+
+#inserUserContainer{
+    margin-bottom: 15%;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+#insertArea{
+    display: inline;
+}
+
+#photoUserArea{
+    margin-top: 50px;
+    background-color: rgb(177, 177, 177);
+    float: left;
+    height: 300px;
+    width: 250px;
+    border:solid #22a1f6 5px;
+    padding: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+#inputUserArea{
+    border:solid #22a1f6 5px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    height: auto;
+    height: 250px;
+    width: 1000px;
+    display:inline-table;
+}
+
+
+#labelUser{
+    width: 100px;
+    text-align: left;
+    float: left;
+}
+
+#inputUser{
+    margin-left: 150px;
+}
+
+#checkPhoto{
+    margin-top: 200px;
+}
+
+#generateNickD{
+    display: inline;
+    float: right;
+    margin-right: 300px;
+}
+
+#photoUserArea img{
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#inputUserArea label{
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    height: 200px;
+}
+
+#inputUserArea input{
+    width: 300px;
+    height: 15px;
+    padding: 8px 10px;
+    border: 3px solid rgb(177, 177, 177);
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    background-color: #e9f7f8;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+/*************************************************************************/
+/*Esta zona da estilo a la pagina de insertar peliculas*/
+
+#instertFilmContainer{
+    margin-bottom: 9%;
+    padding-left: 100px;
+}
+
+#insertArea{
+    display: inline;
+}
+
+#photoFilmArea{
+    margin-top: 50px;
+    background-color: rgb(177, 177, 177);
+    float: left;
+    height: 300px;
+    width: 250px;
+    border:solid #22a1f6 5px;
+    padding: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+#inputFilmArea{
+    border:solid #22a1f6 5px;
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    height: auto;
+    height: 250px;
+    width: 1000px;
+    display:inline-table;
+}
+
+
+#labelFilm{
+    width: 100px;
+    text-align: left;
+    float: left;
+}
+
+#inputFilm{
+    margin-left: 150px;
+}
+
+#checkPhoto{
+    margin-top: 200px;
+}
+
+#photoFilmArea img{
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#inputFilmArea label{
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    height: 200px;
+}
+
+#inputFilmArea input{
+    border-style: dotted;
+    width: 300px;
+    height: 15px;
+    padding: 8px 10px;
+    border: 3px solid rgb(177, 177, 177);
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    background-color: #e9f7f8;
+    margin-bottom: 15px;
+    margin-left: 150px;
+}
+
+#inputFilmArea textarea{
+    resize: none;
+    background-color: #e9f7f8;
+}
+
+/*************************************************************************/
+/*Esta zona da estilo a la página de excepciones*/
+
+#exceptionContainer{
+    min-height: 325px;
+    margin-bottom: 15%;
+    padding-top: 50px;
+    display: inline-block;
+
+}
+
+#exceptionImage{
+    margin-top: 100px;
+    margin-left: 15%;
+    width: 30%;
+    height: auto;  
+    float: left;
+}
+
+#messageContainer{
+    border:solid #22a1f6 5px;
+    box-shadow:5px 5px 10px rgb(241, 117, 45);
+    background-color: #e9f7f8;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-top: 150px;
+    float: right;
+    
+}
+#exceptionContainer h2{
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    
+}
+
+/*************************************************************************/
+/*Esta zona da estilo al PopUp*/
+.popup-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+ 
+.popup {
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background: #e9f7f8;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+}
+ 
+.popup a {
+    background: #22a1f6;;
+    color: #e9f7f8;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin: 30px auto;
+    display: block;
+    width: 50%;
+}
+ 
+.popup a:hover {
+    background-color: rgb(55, 236, 197);
+    transition: all 0.2s;
+}
+ 
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/*************************************************************************/
+/**Este es el estilo para el pop-up de los comentarios*/
+
+.popup-wrapper-comment {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+ 
+.popup-comment {
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background: #e9f7f8;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+}
+ 
+.popup-comment a {
+    background: #22a1f6;;
+    color: #e9f7f8;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin: 30px auto;
+    display: block;
+    width: 50%;
+}
+ 
+.popup-comment a:hover {
+    background-color: rgb(55, 236, 197);
+    transition: all 0.2s;
+}
+ 
+.popup-close-comment {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/*************************************************************************/
+/**Este es el estilo para el pop-up de los comentarios*/
+
+.popup-wrapper-mark {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+ 
+.popup-mark {
+    font-family:-apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background: #e9f7f8;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+}
+ 
+.popup-mark a {
+    background: #22a1f6;;
+    color: #e9f7f8;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin: 30px auto;
+    display: block;
+    width: 50%;
+}
+ 
+.popup-mark a:hover {
+    background-color: rgb(55, 236, 197);
+    transition: all 0.2s;
+}
+ 
+.popup-close-mark {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/*************************************************************************/
+/*Esta zona da estilo al footer*/
+footer {
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: cornsilk;
+    background-color: #22a1f6;
+    position:sticky;
+    bottom: 0;
+}
+
+

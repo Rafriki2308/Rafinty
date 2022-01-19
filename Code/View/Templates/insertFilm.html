@@ -1,0 +1,54 @@
+<div id='instertFilmContainer'>
+       <form id="sendFilmForm" name="sendFilmForm" action="./InsertFilm.php?option=2" method="post">
+        <div id="insertArea">
+            <div id="photoFilmArea">
+                <div id="photoUser">
+                <img src="./Style/img/Panel.jpg" alt="Foto Usuario" id="photo">
+                </div>
+                <br>
+                <button type="button" id="checkPhoto" onclick="showPhoto(photoI.value)">Validar Foto</button>
+            </div>
+
+            <div id="inputFilmArea">
+                <div id="labelFilm" >
+                    <label for="nameFilmL">Nombre</label>
+                    <br><br>
+                    <label for="yearL">Año</label>
+                    <br><br>
+                    <label for="directorL">Director</label>
+                    <br><br>
+                    <label for="photoLFilm">Foto</label>
+                    <br><br>
+                    <label for="sinposisL">Sinopsis</label>
+                </div>
+                <div id="inputFilm">
+                    <input type="text" id="nameI" name="nameI" required placeholder="Apocalipsis Meow">
+                    <br>
+                    <input type="number" id="yearI" name="yearI" required min="1800" max="2100" placeholder="Año entre 1800 y 2100">
+                    <br>
+                    <input type="text" id="directorI" name="directorI" required placeholder="Nombre Director">
+                    <br>
+                    <input type="text" id="photoI" name="photoI" required placeholder="https://image.jpg">
+                <textarea name="synopsisI" id="synopsisI" cols="100" rows="10" required 
+                placeholder="Escribe un breve resumen de la película"></textarea>
+                </div>
+                <br><br>
+                <button type="button" id="sendFilm" onclick="testFilm(nameI.value, yearI.value, directorI.value,
+                 photoI.value, synopsisI.value)">Introducir Pelicula</button>
+                <button type="button" id="addFilm" onclick="location.href='./Exception.php?option=6'" >Añadir Varias Peliculas</button>
+            </div>
+        </div>
+    </form>
+    <!--Este DIV contiene el popUp que esta oculto desde el CSS y cuando se aplica el evento del 
+    boton el javaScript lo hace aparecer cuando se introduce un dato errone en una pelicula-->
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-close">x</div>
+            <div class="popup-content">
+                <h2>UPS Parece que has introducido un dato erroneo</h2>
+                <p>Revisalos y vuelve a intentarlo</p>
+                <a href='./InsertFilm.php?option=1'>Vale</a>
+            </div>
+        </div>
+    </div>
+</div>

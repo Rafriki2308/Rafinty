@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['index_0',['Index',['../class_index.html',1,'']]],
+  ['index_2ephp_1',['Index.php',['../_index_8php.html',1,'']]],
+  ['infofilm_2',['InfoFilm',['../class_info_film.html',1,'']]],
+  ['infofilm_2ephp_3',['InfoFilm.php',['../_info_film_8php.html',1,'']]],
+  ['infofilmfromidpublic_4',['infoFilmFromIdPublic',['../class_movie_controller.html#a6dd43afcbb74b5458c12fee0d3059649',1,'MovieController']]],
+  ['infouser_5',['InfoUser',['../class_info_user.html',1,'']]],
+  ['infouser_6',['infoUser',['../class_user_model.html#ab3ac8aa776b29b4e60821eb86c836994',1,'UserModel']]],
+  ['infouser_2ephp_7',['InfoUser.php',['../_info_user_8php.html',1,'']]],
+  ['insertcomment_8',['InsertComment',['../class_insert_comment.html',1,'']]],
+  ['insertcomment_9',['insertComment',['../class_comment_model.html#a0ade3a9be35688b1676f701db780a744',1,'CommentModel']]],
+  ['insertcomment_2ephp_10',['InsertComment.php',['../_insert_comment_8php.html',1,'']]],
+  ['insertcomments_11',['insertComments',['../class_comment_controller.html#a2b61efbd27d48a958ba5cc51e06e9606',1,'CommentController']]],
+  ['insertdatacomment_12',['insertDataComment',['../class_comment_model.html#aec00875d5dfdc9080f2a6d397123caad',1,'CommentModel']]],
+  ['insertdatamovie_13',['insertDataMovie',['../class_movie_model.html#a9486edd0b665c49ea7a9579980af9f20',1,'MovieModel']]],
+  ['insertdatarating_14',['insertDataRating',['../class_movie_model.html#a66c5dd47bdf070e1be60152b10fb3621',1,'MovieModel']]],
+  ['insertdatauser_15',['insertDataUser',['../class_user_model.html#a6253208ab0b155efa85670e4f9c32458',1,'UserModel']]],
+  ['insertfilm_16',['InsertFilm',['../class_insert_film.html',1,'']]],
+  ['insertfilm_2ephp_17',['InsertFilm.php',['../_insert_film_8php.html',1,'']]],
+  ['insertmovie_18',['insertMovie',['../class_movie_controller.html#a1aabf8705614452dc124b06638e4b39d',1,'MovieController']]],
+  ['insertrating_19',['InsertRating',['../class_insert_rating.html',1,'']]],
+  ['insertrating_20',['insertRating',['../class_movie_controller.html#a256cde26fcec9952c40518df447cd68b',1,'MovieController\insertRating()'],['../class_movie_model.html#a3ec4c7cc66afee21a6e1759897d7255c',1,'MovieModel\insertRating()']]],
+  ['insertrating_2ephp_21',['InsertRating.php',['../_insert_rating_8php.html',1,'']]],
+  ['insertuser_22',['InsertUser',['../class_insert_user.html',1,'']]],
+  ['insertuser_23',['insertUser',['../class_user_controller.html#ab4814321b88fbbae7c43d0762d639fc2',1,'UserController']]],
+  ['insertuser_2ephp_24',['InsertUser.php',['../_insert_user_8php.html',1,'']]]
+];
